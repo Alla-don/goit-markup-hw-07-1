@@ -1,0 +1,27 @@
+.activity {
+  @media screen and (max-width: 1157px) {
+    display: none;
+  }
+}
+.no-padding {
+  padding-top: 0;
+}
+.cards__title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--primary-title-color);
+  text-transform: capitalize;
+}
+.cards__list {
+  display: flex;
+  & .cards__item:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+.cards__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
