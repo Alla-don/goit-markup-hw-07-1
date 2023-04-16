@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
@@ -34,10 +34,10 @@
             <ul class="connection list">
                 <li class="connection__item"><a href="info@devstudio.com" class="connection__contact link">
                         info@devstudio.com</a></li>
-                <li class="connection__item"><a href="tel:+11 (000) 111-11-11" class="connection__contact link">
+                <li class="connection__item"><a href="tel:+11(000)111-11-11" class="connection__contact link">
                         +11 (000) 111-11-11</a></li>
             </ul>
-            <button type="button" class="menu-open" aria-expanded="false" aria-controls="mobile-menu">
+            <button type="button" class="menu-open" data-menu-open>
                 <svg width="32" height="22">
                     <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
                 </svg>
@@ -52,8 +52,6 @@
                                 <use href="./images/icons.svg#icon-modal-close-cross"></use>
                             </svg>
                         </button>
-
-
                         <nav class="mob-navigation">
                             <ul class="mob-navigation-list list">
                                 <li class="mob-navigation-item"><a href="./index.html"
@@ -68,7 +66,7 @@
                     </div>
                     <div>
                         <ul class="mob-connection list">
-                            <li class="mob-connection-item"><a href="tel:+11 (000) 111-11-11"
+                            <li class="mob-connection-item"><a href="tel:+11(000)111-11-11"
                                     class="mob-connection__tel link">
                                     +11 (000) 111-11-11</a></li>
                             <li class="mob-connection-item"><a href="info@devstudio.com"
@@ -323,34 +321,35 @@
                                 media="(min-width:428px)">
                             <img srcset="./images/staff4-mob-1x.jpg 1x, ./images/staff4-mob-2x.jpg 2x"
                                 src="./images/staff4-desk-1x.jpg" alt="UI Designer" class="card-set__card">
-                            <h3 class="card-set__name">Daniel Wilson</h3>
-                            <p class="card-set__text">UI Designer</p>
-                            <ul class="social list">
-                                <li class="social__item"><a href="" class="social__link link">
-                                        <svg width="16" height="16" class="social__icons">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social__item"><a href="" class="social__link link">
-                                        <svg width="16" height="16" class="social__icons">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social__item"><a href="" class="social__link link">
-                                        <svg width="16" height="16" class="social__icons">
-                                            <use href="./images/icons.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social__item"><a href="" class="social__link link">
-                                        <svg width="16" height="16" class="social__icons">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                        </picture>
+                        <h3 class="card-set__name">Daniel Wilson</h3>
+                        <p class="card-set__text">UI Designer</p>
+                        <ul class="social list">
+                            <li class="social__item"><a href="" class="social__link link">
+                                    <svg width="16" height="16" class="social__icons">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item"><a href="" class="social__link link">
+                                    <svg width="16" height="16" class="social__icons">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item"><a href="" class="social__link link">
+                                    <svg width="16" height="16" class="social__icons">
+                                        <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item"><a href="" class="social__link link">
+                                    <svg width="16" height="16" class="social__icons">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
